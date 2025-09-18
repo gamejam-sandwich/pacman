@@ -1,0 +1,48 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee;
+}
+
+.inventory-shelf {
+    width: 1800px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sticker {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-btns {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+.nav-btns button {
+    font-size: 15px;
+    font-weight: 500;
+    color: #002d36;
+    background-color: #99c6cf;
+    border-radius: 6px;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.nav-btns button:hover {
+    color: #ffffff;
+    background-color: #002d36;
+}
